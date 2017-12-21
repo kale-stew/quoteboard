@@ -1,6 +1,6 @@
 # Quoteboard
 
-#### 0% completed
+#### 15% completed
 
 ## Overview
 
@@ -13,6 +13,7 @@ Quoteboard is a progressive web app that allows a user to login, join a group of
 - `postgreSQL` to communicate with my db
 - server written in `nodejs`
 - `massive` and `express` to connect to my `heroku`-hosted db
+- tons of `CSS flexbox` for responsive styling
 
 ## Progressive Web App Checklist (according to [Google](https://developers.google.com/web/progressive-web-apps/checklist))
 - ☐ Site is served over HTTPS
