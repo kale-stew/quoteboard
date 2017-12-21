@@ -1,0 +1,35 @@
+.nav-wrapper {
+    width: 100%;
+    background-color: #FE5F55;
+    -webkit-box-shadow: 0px 0px 20px 0px #FE5F55;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 0px 5px;
+    font-size: 11px;
+    color: white;
+}
+
+.user-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    background-color: #6564DB;
+    border-radius: 10px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 0px 4px 0px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
