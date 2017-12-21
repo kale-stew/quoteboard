@@ -8,12 +8,13 @@ Quoteboard is a progressive web app that allows a user to login, join a group of
 
 ## Tech Stack
 - framework is `react`
+- `redux` to manage state
 - `react-detect-offline` for offline display
 - `postgreSQL` to communicate with my db
 - server written in `nodejs`
 - `massive` and `express` to connect to my `heroku`-hosted db
 
-## Progressive Web App Checklist (as according to [Gooogle](https://developers.google.com/web/progressive-web-apps/checklist))
+## Progressive Web App Checklist (according to [Google](https://developers.google.com/web/progressive-web-apps/checklist))
 - ☐ Site is served over HTTPS
 - ☐ Pages are responsive on tablets & mobile devices
 - ☐ All app URLs load while offline (using a `service worker`)
@@ -21,4 +22,4 @@ Quoteboard is a progressive web app that allows a user to login, join a group of
 - ☐ First load fast even on 3G
 - ☐ Site works cross-browser
 - ☐ Page transitions don't feel like they block on the network
-- ☐ Each page has an independent URL
+- ☑︎ Each page has an independent URL (achieved using `react-router-dom`)
