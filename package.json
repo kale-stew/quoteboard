@@ -1,0 +1,20 @@
+{
+  "name": "quoteboard",
+  "version": "0.1.0",
+  "author": "Kylie <kylie@kyliestewart.tech>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "format": "prettier \"**/*.{js,json,ts,css,md}\" --write"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
