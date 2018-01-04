@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './welcome.css';
+import { Link } from 'react-router-dom';
 
 /**
  * User can:
@@ -13,6 +14,9 @@ class Welcome extends Component {
         return (
             <div className="landing-wrapper">
                 <h1>Welcome</h1>
+                <Link to="/quotes">go to Home View</Link>
+                <Link to="/groups">go to Group View</Link>
+                <Link to="/edit">go to Settings View</Link>
             </div>
         );
     }

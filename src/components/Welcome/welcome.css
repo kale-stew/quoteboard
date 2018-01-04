@@ -1,5 +1,8 @@
 .landing-wrapper {
+    background: #6564DB;
+    height: 100vh;
     display: flex;
-    flex-direction: column wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }

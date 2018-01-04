@@ -23,7 +23,7 @@
 .nav-content {
     display: flex;
     justify-content: space-around;
-    padding: 4px 0px 4px 0px;
+    padding: 14px 0px 4px 0px;
 }
 
 a {
