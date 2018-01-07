@@ -12,8 +12,8 @@ function NavBar() {
                 <div><i>Welcome Back, user.name</i></div>
             </div>
             <div className="nav-content">
-                <Link to="/quotes"><img src={quoteIcon} style={{ width: '26px' }}/></Link>
-                <Link to="/groups"><img src={groupIcon} style={{ width: '26px' }} /></Link>
+                <Link to="/quotes"><img src={quoteIcon} style={{ width: '26px' }} alt="home"/></Link>
+                <Link to="/groups"><img src={groupIcon} style={{ width: '26px' }} alt="groups"/></Link>
             </div>
         </header>
     );
